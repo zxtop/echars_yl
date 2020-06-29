@@ -11,7 +11,7 @@ import './directive/time'
 import echarts from 'echarts';
 import jining from '@/assets/json/jinxiang.json';
 
-import "./assets/css/index.css"
+import "./assets/css/index.css";
 require('./util/mock');
 
 Vue.config.productionTip = false;
