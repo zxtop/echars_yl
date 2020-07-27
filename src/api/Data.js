@@ -8,7 +8,6 @@ export function get_patient_num(params){
 }
 
 //本年度各院住院人数统计 东城社区医院、胡集医院
-
 export function get_patient_num_by_hospital(params){
     const url = Global.baseURL+'/get_patient_num_by_hospital';
     return http.fetchGet(url,params)

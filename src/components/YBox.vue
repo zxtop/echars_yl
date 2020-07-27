@@ -46,8 +46,10 @@ export default {
                 backgroundRepeat: "no-repeat",
                 backgroundSize:"100% 100%"
             },
-            img_down:"../../static/images/icondown.png",
-            img_up:"../../static/images/iconup.png"
+            // img_down:"../../static/images/icondown.png",
+            // img_up:"../../static/images/iconup.png",
+            img_down:require("../../static/images/icondown.png"),
+            img_up:require("../../static/images/iconup.png")
         }
     }
 }

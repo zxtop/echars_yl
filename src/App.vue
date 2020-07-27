@@ -45,7 +45,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px; */
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* min-height: 1080px; */
 
   background: #09384d;
   /* background-image: url("assets/images/bg.jpg") no-repeat; */

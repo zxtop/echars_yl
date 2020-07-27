@@ -71,7 +71,6 @@ export default {
         initChart(){
             let dom = this.$refs.aleftboxtbott;
             let myChart = this.$echarts.init(dom);
-            
             get_patient_num_by_hospital().then((res)=>{
                 for(var i in res.data.data){
                   let obj = {

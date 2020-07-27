@@ -4,13 +4,15 @@ html{
   }
   
 html, body {
-height: 100%;
+/* height: 100%; */
+/* min-height: 930px; */
 line-height: 1;
 -webkit-user-select: none;
 -webkit-touch-callout: none;
 -webkit-overflow-scrolling: touch; 
 -webkit-font-smoothing: antialiased; 
 -webkit-tap-highlight-color: rgba(242, 137, 76, .05); 
+background: #072f50;
 }
   
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, span, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -28,17 +30,17 @@ word-wrap: break-word;
   position: relative;
 }
 #myChart{
-  width:1000px;
+  width:50%;
   height:500px;
-  margin:0 auto;
-  margin-top:26px;
+  margin-left: 25.5%;
+  margin-top:1%;
 }
 .container-left-top{
-  width: 412px;
+  width: 22%;
   height: 264px;
   position: absolute;
-  left: 38px;
-  top: -53px;
+  left: 2%;
+  top: -10%;
 }
 .container-left-top h2,.aleftboxtmidd h2,.aleftboxtbott h2,.arightboxtop h2,.yright h2{font-size: 14px;color: #fff;text-align: center;line-height: 36px;}
 .title-area span{margin-left: 18px;}
@@ -53,7 +55,7 @@ word-wrap: break-word;
 
 .text-muted{color: #789ce0;}
 
-.aleftboxtmidd{width: 408px;height: 281px;position: absolute;left: 38px;top: 218px;}
+.aleftboxtmidd{width: 22%;height: 281px;position: absolute;left: 2%;top: 44%;}
 
 
 .lefttoday_tit{ overflow: hidden; padding: 1.9% 5% .2%;  height: 6%; position: relative;}
@@ -65,16 +67,16 @@ word-wrap: break-word;
 .lefttoday_tit.height p.fr{position: absolute;left:5%;top: 65%; right: auto;}
 
 .aleftboxtmiddcont{width:91%; height:66%;margin-left: 4.4%; margin-top: 1%;}
-.aleftboxtbott{width: 408px;height: 340px;position: absolute;left: 38px;top: 506px;}
+.aleftboxtbott{width: 22%;height: 340px;position: absolute;left: 2%;top: 102%;}
 .aleftboxtbott_cont{width:91%; height:72.6%; margin-top: 1.8%;margin-left: 4.4%;}
 
-.yline-cont{width: 1000px;height: 350px;position: absolute;left: 459px;top: 504px;}
+.yline-cont{width: 50%;height: 350px;position: absolute;left: 25.5%;top: 102%;}
 
-.arightboxtop{width: 405px;height: 550px;position: absolute;right: 40px;top: -52px;}
+.arightboxtop{width: 21%;height: 550px;position: absolute;right: 2%;top: -9%;}
 .left2_table{ width: 91%; margin-left: 5%; font-size: 12px;height:83.6%; overflow: hidden;}
 .left2_table li{position: relative;overflow: hidden; padding: 5.5% 6%; color:rgba(255,255,255,.7); line-height: 150%}
 .left2_table li.bg{background: rgba(1,202,217,.2) no-repeat  top left; }
 .left2_table li p.fr{ position: absolute; right: 5%; top: -20%;}
 
-.yright{width: 405px;height: 335px;position: absolute;right: 40px;top:512px;}
+.yright{width: 21%;height: 335px;position: absolute;right: 2%;top:104%;}
 .yright_cont{height: 280px;width: 330px;margin: 0 auto;}
